@@ -10,3 +10,5 @@ class Solution:
             dict_t[t[i]] = 1 + dict_t.get(t[i],0)
 
         return dict_s == dict_t
+    # Counter(s) == Counter(t)
+    # sorted(s) == sorted(t)
