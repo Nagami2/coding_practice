@@ -3,7 +3,7 @@ uppercase letters into lowercase letters and
 removing all non-alphanumeric characters, it reads the same forward and backward'''
 # wrong initiation? first, last = s[0], s[-1]
 
-r,l = 0, len(s)-1
+l,r = 0, len(s)-1
 
 while l<r:
     while l<r and not s[l].isalnum():
